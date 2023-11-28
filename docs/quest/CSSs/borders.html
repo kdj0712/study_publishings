@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borders</title>
+    <style>
+        * {
+            margin-top: 20px;
+        }
+
+        .border {
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+
+        .bottom {
+            border-style: solid;
+            border-width: 0px 0px 2px 0px;
+            border-color: red;
+        }
+        .round {
+            border-style: solid;
+            border-color: gray;
+            border-width: 1px;
+            border-radius: 5px;
+        }
+        .blue {
+            background-color: lightblue;
+            
+            border-style: solid;
+            border-width: 0px;
+
+            border-left-width: 4px;
+            border-left-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="border">I have borders on all sides.</div>
+        <div class="bottom">I have a red bottom border.</div>
+        <div class="round">I habe rounded borders.</div>
+        <div class="blue">I have a blue left border</div>
+    </main>
+</body>
+
+</html>
