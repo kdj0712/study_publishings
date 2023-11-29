@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    /* grid-template-columns: auto auto auto; -> 갯수 만큼 컬럼의 수가 적용, */
+    /* grid-template-columns: 50px auto auto; -> 수치 입력시 해당 수치만큼 넓이 적용 */
+    /* grid-template-columns: 20% 50% 30% ; -> 수치 입력시 해당 수치만큼 넓이 적용 */
+    /* 수치 입력시 출력 페이지 상 넓이를 최대화 하지 않고 조절 해도, 해당 수치는 고정적으로 작용한다.*/
+    gap: 10px;
+}
+.grid-item-second-main{
+    display: grid;
+    grid-template-columns: 25% auto 15%;
+    gap: 0;
+
+
+}
+
