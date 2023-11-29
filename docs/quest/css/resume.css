@@ -1,0 +1,79 @@
+/* 화면 비율 축소해도 크기 고정되도록 너비 지정 */
+body {
+    width: 1700px;
+}
+
+/* 이력서 타이틀 설정*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* 항목 별 문구*/
+div {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin: 25px 100px 5px 100px;
+}
+
+/* 각 항목별 테이블*/
+table {
+    margin: 10px 100px 10px 100px;
+    border-style: solid 1px black;
+    border-collapse: collapse;
+    font-size: 19px;
+    text-align: center;
+}
+
+/* 첫 테이블 이미지 첨부 셀의 영역 처리 */
+.img {
+    background-image: url(../../Images/meme.jpg);
+    background-size: cover;
+}
+
+/* 테두리 테이블 설정 */
+.a {
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+}
+
+/* 테이블 내 항목 배경 지정*/
+.b {
+    background-color: gray;
+}
+
+/* 내부 각 항목 별 테이블 간 줄별 높이와 테두리 설정*/
+tr {
+    height: 43px;
+    border-style: solid black 1px;
+}
+
+/* 내부 각 항목 별 테이블 간 열별 테두리 설정*/
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* 중앙부 하단 문구 관련 지정값*/
+.c {
+    margin: 40px 0px 40px 0px;
+}
+
+/* 최종 문구 위치 관련 지정값*/
+.d {
+    margin: 30px 40px 130px 0px;
+}
+
+/* 입력된 텍스트 중 중간으로 정리가 필요한 항목*/
+p {
+    text-align: center;
+}
+
+/* 띄어 쓰기가 필요한 항목 선정*/
+span {
+    padding: 5%;
+}
