@@ -6,8 +6,7 @@
 }
 
 .nav > .nav-item { 
-    background-color: white;
-    padding: 3px;
+    background-color:greenyellow;
 }
 .nav-item > a {
     text-decoration: none;
@@ -16,5 +15,5 @@ a:link {
     color: red;
 }
 a:hover {
-    color: white;
+    background-color: blue;
 }
