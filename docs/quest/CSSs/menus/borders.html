@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borders</title>
+    <link rel="stylesheet" href="../../../css/grid_munu.css">
+    <style>
+        .border {
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+        }
+
+        .bottom {
+            border-style: solid;
+            border-width: 0px 0px 2px 0px;
+            border-color: red;
+        }
+        .round {
+            border-style: solid;
+            border-color: gray;
+            border-width: 1px;
+            border-radius: 5px;
+        }
+        .blue {
+            background-color: lightblue;
+            
+            border-style: solid;
+            border-width: 0px;
+
+            border-left-width: 4px;
+            border-left-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a href="../../../index.html">Home</a></li>
+            <li class="nav-item"><a href="./borders.html">Border</a></li>
+            <li class="nav-item"><a href="./text_colors.html">Color</a></li>
+            <li class="nav-item"><a href="./texts.html">Text</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>CSS Borders</h1>
+        <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+        <div class="border">I have borders on all sides.</div>
+        <div class="bottom">I have a red bottom border.</div>
+        <div class="round">I have rounded borders.</div>
+        <div class="blue">I have a blue left border</div>
+    </main>
+</body>
+
+</html>

@@ -1,17 +1,28 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 40px 50px 60px;
     /* grid-template-columns: auto auto auto; -> 갯수 만큼 컬럼의 수가 적용, */
     /* grid-template-columns: 50px auto auto; -> 수치 입력시 해당 수치만큼 넓이 적용 */
     /* grid-template-columns: 20% 50% 30% ; -> 수치 입력시 해당 수치만큼 넓이 적용 */
     /* 수치 입력시 출력 페이지 상 넓이를 최대화 하지 않고 조절 해도, 해당 수치는 고정적으로 작용한다.*/
     gap: 10px;
+
+}
+.grid-item{
+
 }
 .grid-item-second-main{
     display: grid;
     grid-template-columns: 25% auto 15%;
     gap: 0;
-
-
 }
-
+.grid-container-justify
+{
+    display: grid;
+    grid-template-columns: 40px 50px 60px;
+    gap: 10px;
+    justify-content: space-around;
+    /*왼쪽 끝은 start,오른쪽 끝은 end*/
+    /*space-aroundsms 중심을 기준으로 적당한 비율로 간격을 벌린다,
+     space-between은 양 끝을 기준으로 사이 사이에 간격을
+}
