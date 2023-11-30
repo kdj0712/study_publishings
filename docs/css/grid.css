@@ -24,5 +24,5 @@
     justify-content: space-around;
     /*왼쪽 끝은 start,오른쪽 끝은 end*/
     /*space-aroundsms 중심을 기준으로 적당한 비율로 간격을 벌린다,
-     space-between은 양 끝을 기준으로 사이 사이에 간격을
+     space-between은 양 끝을 기준으로 사이 사이에 간격을 벌릴 수 있다.*/
 }
