@@ -13,42 +13,56 @@
 </head>
 
 <body>
-    <nav class="container">nav</nav>
+    <nav class="container-fluid">nav</nav>
     <main class="container">
-        <!-- mixed color -->
-        <div>
-            <div>mix color with text and background</div>
-            <div class="bg-success text-white">bg-success</div>
-        </div>
-        <!-- text colors -->
+        <!-- justify contents -->
+        <!-- command: justify-content-center 중앙 기준 붙여서 배치-->
+        <!-- command: justify-content-start  왼쪽 끝 기준 배치-->
+        <!-- command: justify-content-end 오른쪽 끝 기준 배치-->
+        <!-- command: justify-content-between 중앙 기준 간격을 최대한 벌려서 배치-->
+        <!-- command: justify-content-between 중앙 기준 간격을 적당히 벌려서 배치-->
+            <div class="row justify-content-around">
+                <div class="col-12">justify contents</div>
+                <div class="bg-primary col-1">bg-primary</div>
+                <div class="bg-success col-1">bg-success</div>
+                <div class="bg-info col-1">bg-info</div>
+            </div>
         <div class="row">
-            <div class="col-1">text colors</div>
-            <div class="text-muted col-1">This text is muted.</div>
-            <div class="text-primary col-1">This text is important.</div>
-            <div class="text-success col-1">This text indicates success.</div>
-            <div class="text-info col-1">This text represents some information.</div>
-            <div class="text-warning col-1">This text represents a warning.</div>
-            <div class="text-danger col-1">This text represents danger.</div>
-            <div class="text-secondary col-1">Secondary text.</div>
-            <div class="text-dark col-1">This text is dark grey.</div>
-            <div class="text-body col-1">Default body color (often black).</div>
-            <div class="text-light col-1">This text is light grey (on white background).</div>
-            <div class="text-white col-1">This text is white (on white background).</div>
-        </div>
-        <!-- background colors -->
-        <div class="row">
-            <div class="col-12">background colors</div> <!-- column의 개수가 12개일 경우 해당 영역 이후의 내용은 자동으로 밑으로 내려간다  -->
-            <div class="bg-primary col-1">bg-primary</div>
-            <div class="bg-success col-1">bg-success</div>
-            <div class="bg-info col-1">bg-info</div>
-            <div class="bg-warning col-1">bg-warning</div>
-            <div class="bg-danger col-1">bg-danger</div>
-            <div class="bg-secondary col-1">bg-secondary</div>
-            <div class="bg-dark col-1">bg-dark</div>
-            <div class="bg-light col-1">bg-light</div>
-            <div class="bg-primary col-1">bg-primary</div>
-            <div class="bg-success col-1">bg-success</div>
-            <div class="bg-info col-2">bg-info</div>
+            <!-- mixed color -->
+            <div class="row col-6">
+                <div class="col-6">mix color with text and background</div>
+                <div class="bg-success text-white col-6">bg-success</div>
+            </div>
+            <!-- text colors -->
+            <div class="row col-6">
+                <div class="col-12">text colors</div>
+                <div class="text-muted col-1">This text is muted.</div>
+                <div class="text-primary col-1">This text is important.</div>
+                <div class="text-success col-1">This text indicates success.</div>
+                <div class="text-info col-1">This text represents some information.</div>
+                <div class="text-warning col-1">This text represents a warning.</div>
+                <div class="text-danger col-1">This text represents danger.</div>
+                <div class="text-secondary col-1">Secondary text.</div>
+                <div class="text-dark col-1">This text is dark grey.</div>
+                <div class="text-body col-1">Default body color (often black).</div>
+                <div class="text-light col-1">This text is light grey (on white background).</div>
+                <div class="text-white col-1">This text is white (on white background).</div>
+            </div>
+            <!-- background colors -->
+            <div class="row col-12">
+                <div class="col-12">background colors</div> <!-- column의 개수가 12개일 경우 해당 영역 이후의 내용은 자동으로 밑으로 내려간다  -->
+                <div class="bg-primary col-1">bg-primary</div>
+                <div class="bg-success col-1">bg-success</div>
+                <div class="bg-info col-1">bg-info</div>
+                <div class="bg-warning col-1">bg-warning</div>
+                <div class="bg-danger col-1">bg-danger</div>
+                <div class="bg-secondary col-1">bg-secondary</div>
+                <div class="bg-dark col-1">bg-dark</div>
+                <div class="bg-light col-1">bg-light</div>
+                <div class="bg-primary col-1">bg-primary</div>
+                <div class="bg-success col-1">bg-success</div>
+                <div class="bg-info col-2">bg-info</div>
+            </div>
         </div>
     </main>
     <footer class="container-fluid">footer</footer>
